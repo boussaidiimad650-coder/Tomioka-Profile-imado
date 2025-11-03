@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tomioka Profile </title>
+ 
+  <script>
+ if ('requestAnimationFrame' in window) {
+  // يجبر المتصفح على تحديث الرسومات بطريقة محسّنة
+  let fpsBoost = () => {
+    window.requestAnimationFrame(fpsBoost);
+  };
+  fpsBoost();
+ }
+  </script>
+
+
+  
+  <script>
+  // 🌀 كود favicon متحرك (يبدل الصور تلقائياً)
+  const icons = [
+    'https://i.imgur.com/XmH2uYh.png', // إطار 1
+    'https://i.imgur.com/RRCf0ZZ.png', // إطار 2
+    'https://i.imgur.com/iw5aNcm.png', // إطار 3
+    'https://i.imgur.com/qTdrT3g.png'  // إطار 4
+  ];
+
+  let index = 0;
+  setInterval(() => {
+    let link = document.querySelector("link[rel='icon']") || document.createElement('link');
+    link.rel = 'icon';
+    link.type = 'image/png';
+    link.href = icons[index];
+    document.head.appendChild(link);
+    index = (index + 1) % icons.length;
+  }, 300); // ← سرعة الحركة (كل 0.3 ثانية)
+</script>
+
+  <link rel="icon" type="image/gif" href="akPXJRg.gif">
+  <link rel="icon" type="image/png" sizes="32x32" href="akPXJRg.gif">
+  <link rel="icon" type="image/png" sizes="16x16" href="akPXJRg.gif">
+  <link rel="shortcut icon" href="akPXJRg.gif">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Font Awesome for glowing icons -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Scary Intro Screen -->
+  <div id="scary-intro" class="scary-intro">
+    <div class="scary-content">
+      <h1 class="scary-title">⚠️ WARNING ⚠️</h1>
+      <p class="scary-text">You are about to enter a realm of the unknown...</p>
+      <p class="scary-text">Proceed only if you dare to face what lies beyond.</p>
+      <button id="enter-site" class="enter-button">Enter If You Dare</button>
+    </div>
+  </div>
+
+  <!-- Background video: 8K Ultra High Quality optimized -->
+  
+    Your browser does not support video playback.
+  </video>
+
+  <!-- Tubes Cursor Canvas -->
+  <canvas id="canvas"></canvas>
+
+  <!-- Secondary Animated Video Background (after mouse effect) -->
+  <video autoplay muted loop playsinline preload="auto" id="secondary-bg-video" poster="">
+    <source src="koko.mp4" type="video/mp4">
+    Your browser does not support video playback.
+  </video>
+
+  <!-- Particles (stars) over the video -->
+  <div id="particles-js"></div>
+
+  <!-- ✅ تعديل هنا فقط -->
+  <header class="topbar">
+  <h1 class="brand" style="color:#00bfff;text-shadow:0 0 10px #ffffff,0 0 20px #00bfff,0 0 40px #00bfff,0 0 80px #00bfff;animation:glow 2s ease-in-out infinite alternate;">
+    <img src="amine.gif" alt="Tomioka Profile" class="gif-logo">
+    <img src="bJPFhNR.gif" alt="Tomioka Profile" class="gif-logo">
+    Tomioka Profile 💧
+    <img src="cLm0oW3.gif" alt="Tomioka Profile" class="gif-logo">
+    <img src="amine.gif" alt="Tomioka Profile" class="gif-logo">
+  </h1>
+  <style>
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #fff, 0 0 20px #00bfff, 0 0 40px #00bfff, 0 0 80px #00bfff; }
+      to   { text-shadow: 0 0 20px #fff, 0 0 40px #00ffff, 0 0 80px #00ffff, 0 0 120px #00ffff; }
+    }
+  </style>
+</header>
+
+  <!-- ✅ نهاية التعديل -->
+
+  <main class="content">
+    <img class="avatar" src="TOTOMIOKA.gif" alt="My Photo">
+
+    <h2>Welcome to my profile Tomioka YT </h2>
+    <p>If you want to join our family in Discord, join below. .</p>
+
+    <section class="discord-card">
+      <h3>Join our Discord</h3>
+      <img id="server-icon" class="server-img" src="your-server-image.png" alt="Server Icon" style="display:block">
+      <p id="server-name">My Server</p>
+      <a id="invite-link" href="https://discord.gg/ZADhjrGq" target="_blank" class="join-btn">🎮 Welcome to Discord</a>
+    </section>
+
+    <section class="social-icons-container">
+      <a href="https://www.instagram.com/imad___imado0/?next=%2F" target="_blank">
+        <i class="fa fa-instagram" id="instagram"></i>
+      </a>
+      <a href="https://www.youtube.com/@TomiokaDzYT" target="_blank">
+        <i class="fa fa-youtube-play" id="youtube"></i>
+      </a>
+      <a href="https://www.tiktok.com/@smart_cookisa" target="_blank">
+        <i class="fa fa-tiktok" id="tiktok"></i>
+      </a>
+    </section>
+
+    <link href='https://fonts.googleapis.com/css?family=Allerta' rel='stylesheet'>
+
+    <h2>Wellcome to My Music store</h2>
+    <div class="container-audio">
+       <!-- صورة GIF فوق شريط الموسيقى -->
+<img src="holmez.gif" alt="Music Cover" style="width:200px;height:auto;display:block;margin:0 auto 15px;box-shadow:0 0 25px red,0 0 50px red;border-radius:12px;animation:glowRed 2s infinite alternate;">
+
+<!-- شريط الموسيقى -->
+<audio controls loop style="width:1600px;height:70px;display:block;margin:0 auto;">
+  <source src="imado.mp3" type="audio/mp3">
+  Your browser does not support the audio tag.
+</audio>
+
+<style>
+/* إزالة الهوامش والفراغات من الموقع */
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(65, 24, 24); /* خلفية داكنة للمظهر النيون */
+  overflow-x: hidden; /* منع تمرير أفقي */
+}
+
+/* الشريط الأحمر المتوهج */
+audio {
+  width: 1600px;
+  height: 70px;
+  border-radius: 12px;
+  background: transparent;
+  box-shadow: 0 0 25px red, 0 0 50px red, 0 0 80px red;
+  animation: glowRed 2s infinite alternate;
+}
+
+/* تأثير النيون الأحمر */
+@keyframes glowRed {
+  from { box-shadow: 0 0 15px red, 0 0 30px red; }
+  to   { box-shadow: 0 0 40px red, 0 0 80px red; }
+}
+
+/* إزالة الخلفية البيضاء */
+audio::-webkit-media-controls-panel {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* زر التشغيل */
+audio::-webkit-media-controls-play-button {
+  background-color: rgb(134, 105, 105) !important;
+  border-radius: 50%;
+  box-shadow: 0 0 10px red, 0 0 25px red;
+}
+audio::-webkit-media-controls-play-button:hover {
+  background-color: #806666 !important;
+  box-shadow: 0 0 20px red, 0 0 40px red;
+}
+
+/* زر رفع الصوت (جعله مرئي ومضيء) */
+audio::-webkit-media-controls-volume-slider {
+  filter: drop-shadow(0 0 5px red) brightness(1.5);
+  accent-color: red;
+}
+
+/* إزالة الظلال الإضافية */
+audio::-webkit-media-controls-enclosure {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+</style>
+
+    </div>
+    
+    <div class="music-visualizer">
+      <div class="visualizer-container">
+        <div class="colum1"><div class="row"></div></div>
+        <div class="colum1"><div class="row"></div></div>
+        <div class="colum1"><div class="row"></div></div>
+        <div class="colum1"><div class="row"></div></div>
+        <div class="colum1"><div class="row"></div></div>
+        <div class="colum1"><div class="row"></div></div>
+        <div class="colum1"><div class="row"></div></div>
+        <div class="colum1"><div class="row"></div></div>
+        <div class="colum1"><div class="row"></div></div>
+        <div class="colum1"><div class="row"></div></div>
+        <div class="colum1"><div class="row"></div></div>
+        <div class="colum1"><div class="row"></div></div>
+        <div class="colum1"><div class="row"></div></div>
+        <div class="colum1"><div class="row"></div></div>
+        <div class="colum1"><div class="row"></div></div>
+        <div class="colum1"><div class="row"></div></div>
+        <div class="colum1"><div class="row"></div></div>
+        <div class="colum1"><div class="row"></div></div>
+        <div class="colum1"><div class="row"></div></div>
+      </div>
+    </div>
+
+    <div class="self-description">
+      <div class="description-box">
+        <h3>About Me</h3>
+        <p>I love programming, video games, and anime, and I love building a family.<br>
+           Come join our Discord server and become part of the family...</p>
+        
+        <div class="family-section">
+          <h4>My Family Is:</h4>
+          <ul class="family-list"> 
+            <li class="family-member" style="color:rgb(236, 253, 0);position:relative;display:inline-block;overflow:hidden;text-shadow:0 0 10px white,0 0 20px rgb(202, 18, 18),0 0 30px white;"><span style='position:relative;z-index:1;'>Mr Holmez<img src="akPXJRg.gif" alt="Tomioka Profile" class="gif-logo" style="width:24px;height:24px;vertical-align:middle;margin-left:6px;"></span><span style='position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(120deg,transparent,rgba(255,255,255,0.7),transparent);animation:shine 2s infinite;'></span><style>@keyframes shine{0%{left:-100%;}100%{left:100%;}}</style></li>
+            <li class="family-member" style="color:rgb(80, 250, 28);position:relative;display:inline-block;overflow:hidden;text-shadow:0 0 10px white,0 0 20px white,0 0 30px white;"><span style='position:relative;z-index:1;'>Amine<img src="4NIOexZ.gif" alt="Tomioka Profile" class="gif-logo" style="width:24px;height:24px;vertical-align:middle;margin-left:6px;"></span><span style='position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(120deg,transparent,rgba(255,255,255,0.7),transparent);animation:shine 2s infinite;'></span><style>@keyframes shine{0%{left:-100%;}100%{left:100%;}}</style></li>
+            <li class="family-member" style="color:rgb(235, 19, 255);position:relative;display:inline-block;overflow:hidden;text-shadow:0 0 10px white,0 0 20px white,0 0 30px white;"><span style='position:relative;z-index:1;'>Elina<img src="amine.gif" alt="Tomioka Profile" class="gif-logo" style="width:24px;height:24px;vertical-align:middle;margin-left:6px;"></span><span style='position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(120deg,transparent,rgba(255,255,255,0.7),transparent);animation:shine 2s infinite;'></span><style>@keyframes shine{0%{left:-100%;}100%{left:100%;}}</style></li>
+            <li class="family-member" style="color:rgb(255, 118, 6);position:relative;display:inline-block;overflow:hidden;text-shadow:0 0 10px white,0 0 20px white,0 0 30px white;"><span style='position:relative;z-index:1;'>Tanjiro<img src="vueEIt4.gif" alt="Tomioka Profile" class="gif-logo" style="width:24px;height:24px;vertical-align:middle;margin-left:6px;"></span><span style='position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(120deg,transparent,rgba(255,255,255,0.7),transparent);animation:shine 2s infinite;'></span><style>@keyframes shine{0%{left:-100%;}100%{left:100%;}}</style></li>
+            <li class="family-member" style="color:rgb(45, 255, 237);position:relative;display:inline-block;overflow:hidden;text-shadow:0 0 10px white,0 0 20px white,0 0 30px white;"><span style='position:relative;z-index:1;'>Cs_Dz<img src="cat2.gif" alt="Tomioka Profile" class="gif-logo" style="width:24px;height:24px;vertical-align:middle;margin-left:6px;"></span><span style='position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(120deg,transparent,rgba(255,255,255,0.7),transparent);animation:shine 2s infinite;'></span><style>@keyframes shine{0%{left:-100%;}100%{left:100%;}}</style></li>
+            <li class="family-member" style="color:#dee9e9;position:relative;display:inline-block;overflow:hidden;text-shadow:0 0 10px white,0 0 20px white,0 0 30px white;"><span style='position:relative;z-index:1;'>VIP Ya Zaki</span><span style='position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(120deg,transparent,rgba(255,255,255,0.7),transparent);animation:shine 2s infinite;'></span><style>@keyframes shine{0%{left:-100%;}100%{left:100%;}}</style></li>
+            <li class="family-member" style="color:#dee9e9;position:relative;display:inline-block;overflow:hidden;text-shadow:0 0 10px white,0 0 20px white,0 0 30px white;"><span style='position:relative;z-index:1;'>VIP Bankiy</span><span style='position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(120deg,transparent,rgba(255,255,255,0.7),transparent);animation:shine 2s infinite;'></span><style>@keyframes shine{0%{left:-100%;}100%{left:100%;}}</style></li>
+            <li class="family-member" style="color:#dee9e9;position:relative;display:inline-block;overflow:hidden;text-shadow:0 0 10px white,0 0 20px white,0 0 30px white;"><span style='position:relative;z-index:1;'>VIP Nolove</span><span style='position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(120deg,transparent,rgba(255,255,255,0.7),transparent);animation:shine 2s infinite;'></span><style>@keyframes shine{0%{left:-100%;}100%{left:100%;}}</style></li>
+            <li class="family-member" style="color:rgb(28, 31, 219);position:relative;display:inline-block;overflow:hidden;text-shadow:0 0 10px white,0 0 20px white,0 0 30px white;"><span style='position:relative;z-index:1;'>DJO<img src="amoo.gif" alt="Tomioka Profile" class="gif-logo" style="width:24px;height:24px;vertical-align:middle;margin-left:6px;"></span><span style='position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(120deg,transparent,rgba(255,255,255,0.7),transparent);animation:shine 2s infinite;'></span><style>@keyframes shine{0%{left:-100%;}100%{left:100%;}}</style></li>
+            <li class="family-member">Adell</li>
+            <li class="family-member">Rigo</li>
+            <li class="family-member">Sharky</li>
+            <li class="family-member">Veloura</li>
+            <li class="family-member">Dak</li>
+            <li class="family-member">Hamza</li>
+            <li class="family-member">XLR8</li>
+            <li class="family-member">Bdro</li>
+            <li class="family-member">Pookie</li>
+            <li class="family-member">Esty bb</li>
+            <li class="family-member">Doog</li>
+            <li class="family-member">Adem</li>
+            <li class="family-member">Ex!ta4xiit</li>
+            <li class="family-member">Abdo</li>
+            <li class="family-member">Cro7taep</li>
+          </ul>
+        </div>
+        
+        <div class="btn-wrapper">
+          <div class="btn-frame">
+            <button type="button" class="custom-button" onclick="window.open('https://lsgamerz.net/profile/12806-tomioka-giyu/', '_blank')">My L|S Forums</button>
+            <div class="blob"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+<style>
+/* يزيل كل الهوامش والإطارات الافتراضية من الصفحة */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* يمنع التمرير الأفقي */
+}
+</style>
+
+  <footer style="text-align: center; padding: 20px; background: rgba(0, 0, 0, 0.3);">
+    <address>enjoy music-player and thx for coming</address>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
+
+  <!-- 🎨 CSS للـ GIF -->
+  <style>
+    .gif-logo {
+      width: 50px;
+      height: 50px;
+      vertical-align: middle;
+      margin-right: 10px;
+      border-radius: 8px;
+    }
+  </style>
+</body>
+</html>
